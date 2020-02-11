@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #747474;
+}
+
+.logo-docplanner {
+  width: 260px;
+  padding: 10px;
+}
+.navigation {
+  display: flex;
+  /* justify-content: space-around; */
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 3px 2px #f1eeee;
+}
+
+.header-menu {
+  display: flex;
+  list-style-type: none;
+  position: relative;
+  align-items: center;
+  padding: 15px 0px ;
+  margin: 0px;
+  
+}
+.header-menu li {
+  padding: 10px;
+  color: #747474;
+}
+.header-menu:hover {
+  color: teal;
+}
+.dropdown {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  width: 230px;
+  right: 0px;
+  top: 60px;
+  padding-left: 30px;
+  padding-top: 10px;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  background-color: white;
+  
+  margin-left: 100px;
+}
+.header-menu:hover .dropdown {
+  display: block;
+  color: black;
+}
+/* .header-menu-drop {
+ 
+} */
+.list-menu{
+  display: flex;
+  margin-left:700px;
+
+}
+.logo-docplanner {
+  width: 260px;
+  padding: 10px;
+}
+.docplanner-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  padding: 150px 0px 60px 0;
+  max-width: 1015px;
+  margin: auto;
+}
+.docplanner-content {
+  display: flex;
+  line-height: 1.8;
+  margin: 0.8em 0;
+  padding: 20px;
+}
+.docplanner-intro-title {
+  color: #00b39b;
+  font-weight: 500;
+  font-size: 34px;
+  padding: 30px 0;
+}
+.For-patients {
+  background-color: #00ccb1;
+  border-radius: 10px;
+  padding: 40px;
+  position: relative;
+  height: 360px;
+  width: 50%;
+  margin: 10px;
+  overflow: hidden;
+}
+.For-doctors {
+  background-color: #3d83df;
+  border-radius: 10px;
+  padding: 40px;
+  position: relative;
+  height: 360px;
+  width: 50%;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.docplanner-services-title {
+  color: white;
+  padding: 10px 0;
+  font-weight: 500;
+}
+.docplanner-services {
+  display: flex;
+
+  max-width: 1015px;
+  margin: auto;
+}
+.service-select {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  border: white;
+}
+.services-image {
+  height: 300px;
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  top: 180px;
+  bottom: 20px;
+  left: 200px;
+}
+.global-company {
+  display: flex;
+  max-width: 1015px;
+  margin: auto;
+  padding: 40px 0;
+}
+.global-company-title {
+  color: #00b39b;
+  width: 30%;
+  /* padding: 30px 0; */
+  font-size: 28px;
+  /* margin: 0.8em; */
+  font-weight: 100;
+}
+.global-compagny-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.global-company-logo {
+  width: 130px;
+  fill: #d3cfc9;
+  padding: 0 5px;
+}
+.global-company-logo:hover {
+  fill: #00b39b;
+}
+.statistics {
+  background-image: url("https://www.docplanner.com/img/logo.png");
+  background-repeat: no-repeat, repeat;
+  background-color: #cff7f1;
+  background-position: 30px 300px;
+
+  display: flex;
+  margin-top: 40px;
+}
+.statistics-text {
+  width: 720px;
+  height: 500px;
+  padding: 80px;
+  box-sizing: border-box;
+}
+.statistics-title {
+  color: #00b39b;
+  font-weight: 400;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+.stat-numbers {
+  width: 800px;
+}
+.stat-logo {
+  height: 40px;
+  width: 42px;
+  padding-bottom: 20px;
+}
+.stat-number-title {
+  color: #00b39b;
+}
+.first-stat-numbers {
+  display: flex;
+  position: relative;
+}
+.second-stat-numbers {
+  display: flex;
+  position: relative;
+}
+.stat-numbers-description {
+  background-color: white;
+  border-radius: 5px;
+  width: 150px;
+  height: 250px;
+  margin: 30px 10px 15px;
+  padding-top: 40px;
+  padding: 0 25px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.leader {
+  position: relative;
+  left: 60px;
+}
+.appointement {
+  position: absolute;
+  float: right;
+  bottom: 20px;
+  right: 180px;
+}
+.stat-number-title {
+  padding-bottom: 10px;
+}
+.docplanner-promotion {
+  padding: 80px 0;
+  text-align: center;
+  max-width: 1015px;
+  margin: auto;
+  width: 500px;
+}
+.docplanner-promotion-title {
+  color: #00b39b;
+  padding: 30px;
+  font-weight: 500;
+  font-size: 30px;
+}
+.offices-countries {
+  display: flex;
+  justify-content: center;
+}
+.offices-countries-images {
+  padding: 13px;
+  /* border: 3px solid black; */
+  box-shadow: 0 1px 2px #d3d3d3;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.offices-countries-images:hover {
+  box-shadow: 0 20px 20px rgb(206, 205, 205);
+}
+
+.country-photo {
+  border-radius: 3px;
+}
+.offices-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.see-openings {
+  background-color: #3d83df;
+  padding: 10px;
+  color: white;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: #3d83df;
+}
+.footer {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 13px;
+}
+.footer p {
+  padding: 10px;
+}
+.footer a {
+  text-decoration: none;
+  color: #3d83df;
+}
+.About-us{
+  color: #00b39b;
+}
